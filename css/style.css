@@ -87,3 +87,96 @@ body {
   background: url("../img/blood.png") no-repeat top right,
     #14131a url("../img/back.png") no-repeat center center / cover;
 }
+
+.primery-body {
+  background: #14131a url("../img/back.png") no-repeat center center / cover;
+}
+
+.content {
+  display: flex;
+}
+
+.content-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.content-text {
+  max-width: 423px;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.content-subtitle {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.column-2 {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  max-width: 312px;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.trailer {
+  background: url("../img/trailer.jpg");
+  width: 356px;
+  height: 205px;
+  margin-top: 33px;
+  margin-bottom: 125px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-button {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+}
+
+.play-icon-trailer {
+  transform: translate(1px, 2px);
+}
+
+.poster-wrapper {
+  display: flex;
+  align-items: start;
+}
+
+.poster {
+  width: 362px;
+  height: 543px;
+  border-radius: 5px;
+}
+
+.poster-wrapper .content-subtitle {
+  margin-top: 0;
+  margin-left: 30px;
+}
+
+.poster-wrapper ul {
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
