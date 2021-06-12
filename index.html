@@ -25,6 +25,14 @@
             class="logo-img"
         /></a>
         <nav class="nav">
+          <button class="adapt-menu-button">
+            <span>меню</span>
+            <img src="img/adapt-menu.svg" alt="" class="burger-menu-icon" />
+          </button>
+          <button class="close-button">
+            <span class="close-span">закрыть</span>
+            <img src="img/close.svg" alt="" class="close-button-icon" />
+          </button>
           <ul class="nav-menu">
             <li class="nav-menu-item">
               <a href="about.html" class="nav-menu-link">о фильме</a>
@@ -51,10 +59,15 @@
       </section>
       <!-- /.film -->
       <div class="button-group">
-        <button class="button button-primery">
+        <a
+          data-fancybox
+          href="https://www.youtube.com/watch?v=Othd8W8o3t0"
+          class="button button-primery"
+        >
           <img width="15" src="img/play.svg" alt="" class="button-icon" />
           <span class="button-text">смотреть трейлер</span>
-        </button>
+        </a>
+
         <a href="#" class="button button-link">
           <img width="15" src="img/ticket.svg" alt="" class="button-icon" />
           <span class="button-text">билеты на премьеру</span>
@@ -63,5 +76,13 @@
     </div>
     <!-- /.container -->
     <img src="img/venom.png" alt="" class="venom" />
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   </body>
 </html>
