@@ -210,7 +210,6 @@ body {
   .content {
     flex-direction: column;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -218,12 +217,9 @@ body {
     background: #14131a;
   }
   .venom {
-    top: 50%;
+    top: 20%;
     width: 40%;
   }
-
-  .venom::before {
-
 
   .poster-wrapper {
     display: flex;
@@ -254,8 +250,6 @@ body {
 }
 
 @media (max-width: 576px) {
-
-
   .column-2 {
     column-count: 1;
   }
